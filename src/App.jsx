@@ -242,7 +242,7 @@ const [showQuoteModal, setShowQuoteModal] = useState(false);
             {/* LOGO */}
             <div>
               <img
-                src="images/logo.png"
+                src="/images/logo.png"
                 alt="logo"
                 className="navbar-logo"
               />
@@ -382,7 +382,7 @@ const [showQuoteModal, setShowQuoteModal] = useState(false);
           <div className="container hero-content position-relative z-2">
 
             <img
-              src="images/logo.png"
+              src="/images/logo.png"
               alt="DJ"
               className="img-fluid hero-logo"
             />
