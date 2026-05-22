@@ -21,7 +21,7 @@ import "react-calendar/dist/Calendar.css";
     Tab,
   } from "react-bootstrap";
 
-const API_URL = "http://localhost:3000";
+const API_URL = "https://dj-page-backend.onrender.com";
 
   export default function App() {
 
