@@ -24,9 +24,8 @@ export default function Catalogo() {
   const [currentImage, setCurrentImage] = useState(0);
 
   const productImages = [
-    "src="/images/Cabina_DJ.jpeg"",
-    "/Cabina_DJ1.jpeg",
-    "/Cabina_DJ2.jpeg",
+    src="/images/Cabina_DJ.jpeg",
+    src="/images/laserdj.jpg",
   ];
 
   useEffect(() => {
@@ -591,7 +590,8 @@ $250 dentro de CDMX.</li>
     const producto = {
       nombre: "Cabina DJ 3D",
       precio: 3000,
-      imagen: "/Cabina_DJ.jpeg",
+      imagen: src="/images/Cabina_DJ.jpeg",
+
     };
 
     const carritoActual =

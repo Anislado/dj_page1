@@ -223,7 +223,7 @@ const [showQuoteModal, setShowQuoteModal] = useState(false);
   💰 Cargo adicional: $${extra} MXN
     `;
 
-    const url = `https://wa.me/5645557426?text=${encodeURIComponent(mensaje)}`;
+    const url = `https://wa.me/5543804539?text=${encodeURIComponent(mensaje)}`;
 
     window.open(url, "_blank");
   };
@@ -242,7 +242,7 @@ const [showQuoteModal, setShowQuoteModal] = useState(false);
             {/* LOGO */}
             <div>
               <img
-                src="/logo.png"
+                src="images/logo.png"
                 alt="logo"
                 className="navbar-logo"
               />
@@ -382,7 +382,7 @@ const [showQuoteModal, setShowQuoteModal] = useState(false);
           <div className="container hero-content position-relative z-2">
 
             <img
-              src="/logo.png"
+              src="images/logo.png"
               alt="DJ"
               className="img-fluid hero-logo"
             />
@@ -394,7 +394,7 @@ const [showQuoteModal, setShowQuoteModal] = useState(false);
             <div className="d-flex flex-wrap justify-content-center gap-4 mt-5">
 
               <a
-                href="https://wa.me/5645557426"
+                href="https://wa.me/5543804539"
                 className="hero-btn whatsapp-btn"
               >
                 <FaWhatsapp className="me-2" />
@@ -643,7 +643,7 @@ const [showQuoteModal, setShowQuoteModal] = useState(false);
 
 {/* WHATSAPP FLOAT */}
 <a
-  href="https://wa.me/5645557426"
+  href="https://wa.me/5543804539"
   className="whatsapp-float"
 >
   <FaWhatsapp />
