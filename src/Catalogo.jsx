@@ -151,7 +151,7 @@ export default function Catalogo() {
           <div>
 
             <img
-              src="/logo.png"
+              "/images/logo.png"
               alt="logo"
               className="navbar-logo"
             />
