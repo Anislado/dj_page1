@@ -8,7 +8,7 @@ import {
   FaUserCircle,
 } from "react-icons/fa";
 
-const API_URL = "http://localhost:3000";
+const API_URL = "https://dj-page-backend.onrender.com/api/blog";
 
 export default function Blog() {
 
@@ -41,7 +41,7 @@ export default function Blog() {
 
           {/* LOGO */}
           <img
-            src="/logo.png"
+            src="/images/logo.png"
             alt="logo"
             className="navbar-logo"
           />
