@@ -24,7 +24,7 @@ export default function Catalogo() {
   const [currentImage, setCurrentImage] = useState(0);
 
   const productImages = [
-    "/Cabina_DJ.jpeg",
+    "src="/images/Cabina_DJ.jpeg"",
     "/Cabina_DJ1.jpeg",
     "/Cabina_DJ2.jpeg",
   ];
