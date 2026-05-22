@@ -172,7 +172,7 @@ export default function Carrito() {
 
           {/* LOGO */}
           <img
-            src="/logo.png"
+            src="/images/logo.png"
             alt="logo"
             style={{
               height: "75px",
