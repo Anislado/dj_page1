@@ -8,7 +8,7 @@ import {
   FaUserCircle,
 } from "react-icons/fa";
 
-const API_URL = "https://dj-page-backend.onrender.com/api/blog";
+const API_URL ="https://dj-page-backend.onrender.com";
 
 export default function Blog() {
 
@@ -16,16 +16,14 @@ export default function Blog() {
     useState([]);
 
   useEffect(() => {
-
-    fetch(`${API_URL}/api/blog`)
-      .then((res) => res.json())
-      .then((data) => {
-
-        setBlogPosts(data);
-
-      });
-
-  }, []);
+  fetch(`${API_URL}/api/blog`)
+    .then((res) => {
+      if (!res.ok) throw new Error("Error en API");
+      return res.json();
+    })
+    .then((data) => setBlogPosts(data))
+    .catch((err) => console.log(err));
+}, []);
 
   return (
 
