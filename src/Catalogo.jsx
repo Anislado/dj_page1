@@ -414,7 +414,7 @@ export default function Catalogo() {
         {/* BOTON */}
         <button
           className="cotizar-btn w-100 mt-4"
-            onClick={() => addToCart(product)}
+           onClick={() => addToCart(product)}
 
         >
 
@@ -552,16 +552,14 @@ $250 dentro de CDMX.</li>
              <Button
   className="neon-login-btn rounded-pill fw-bold py-3 mt-4"
   onClick={() => {
-
-    const producto = {
-  _id: "cabina-dj-3d",
-  title: "Cabina DJ 3D",
-  price: 3000,
-  image: "/images/Cabina_DJ.jpeg",
-  quantity: 1,
-};
-
-  }}
+  addToCart({
+    _id: "cabina-dj-3d",
+    title: "Cabina DJ 3D",
+    price: 3000,
+    image: "/images/Cabina_DJ.jpeg",
+    quantity: 1,
+  });
+}}
 >
   Agregar al carrito
 </Button> 
