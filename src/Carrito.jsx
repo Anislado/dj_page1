@@ -379,10 +379,10 @@ export default function Carrito() {
                     >
 
                       <img
-                        src={product.image}
-                        alt={product.title}
-                        className="img-fluid rounded mb-3"
-                      />
+  src={product.image || "/images/Cabina_DJ.jpeg"}
+  alt={product.title}
+  className="img-fluid rounded mb-3"
+/>
 
                       <h2>
                         {product.title}

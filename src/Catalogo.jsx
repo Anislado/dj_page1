@@ -554,23 +554,12 @@ $250 dentro de CDMX.</li>
   onClick={() => {
 
     const producto = {
-      nombre: "Cabina DJ 3D",
-      precio: 3000,
-      imagen:"/images/Cabina_DJ.jpeg",
-
-    };
-
-    const carritoActual =
-      JSON.parse(localStorage.getItem("cart")) || [];
-
-    carritoActual.push(producto);
-
-    localStorage.setItem(
-      "cart",
-      JSON.stringify(carritoActual)
-    );
-
-    alert("Producto agregado al carrito");
+  _id: "cabina-dj-3d",
+  title: "Cabina DJ 3D",
+  price: 3000,
+  image: "/images/Cabina_DJ.jpeg",
+  quantity: 1,
+};
 
   }}
 >
