@@ -538,7 +538,7 @@ export default function Carrito() {
 
     await fetch(
 
-      "http://localhost:3000/api/orders",
+"https://dj-page-backend.onrender.com/api/orders",
 
       {
 
@@ -569,7 +569,7 @@ export default function Carrito() {
     const paymentResponse =
       await fetch(
 
-        "http://localhost:3000/api/payments/create-preference",
+        "https://dj-page-backend.onrender.com/api/payments/create-preference",
 
         {
 
