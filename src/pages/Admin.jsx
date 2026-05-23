@@ -20,7 +20,7 @@ import {
   Bar
 } from "recharts";
 
-const API_URL = "http://localhost:3000";
+const API_URL = "https://dj-page-backend.onrender.com";
 
 export default function Admin() {
 
