@@ -354,7 +354,15 @@ export default function Catalogo() {
 
       <div className="service-card h-100">
 
-  <img src="/images/Cabina_DJ.jpeg" />
+      <img src="/images/Cabina_DJ.jpeg" 
+  alt={product.title}
+  className="img-fluid rounded-4 mb-4"
+  style={{
+    height: "250px",
+    width: "100%",
+    objectFit: "cover",
+  }}
+/>
 
         {/* TITULO */}
         <h3 className="fw-bold mb-3">
